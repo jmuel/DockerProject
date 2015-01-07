@@ -8,4 +8,5 @@ app.get('/', function(req, res) {
 
 app.use(express.static(__dirname + '/dist'));
 
+console.log('starting on port: ', port);
 app.listen(port);
