@@ -3,7 +3,7 @@ var app = express();
 var port = 1337;
 
 app.get('/', function(req, res) {
-    res.sendfile('./index.html', {root: __dirname});
+    res.sendFile('./index.html', {root: __dirname});
 });
 
 app.use(express.static(__dirname + '/dist'));
