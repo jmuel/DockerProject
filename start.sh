@@ -8,4 +8,8 @@ cd DockerProject
 
 npm install
 
+npm install -g gulp
+
+gulp build
+
 nodejs server.js
